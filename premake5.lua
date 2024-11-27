@@ -23,7 +23,7 @@ project "Glad"
 		runtime "Debug"
 		symbols "On"
 
-	filter "configurations:Preview or Shipping
+	filter "configurations:Preview or Shipping"
 		runtime "Release"
 		optimize "Speed"
 	
